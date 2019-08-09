@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+            <!-- Bootstrap CSS -->
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+            <link rel="stylesheet" href="asset/workers.css">
+            <title>Jahresurlaub</title>
+    </head>
+    <body>
+
+            <section class="header">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                              <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                              <ul class="navbar-nav ml-auto">
+                                <li class="nav-item">
+                                        <a class="herunterladen">Herunterladen auf</a>
+                                        <a class="btn btn-primary" href="login.html" role="button">Android</a>
+                                        <a class="btn btn-primary" href="login.html" role="button">IOS</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </nav>
+              </section>
+        
+            <div class="col-sm">
+            <p class="wilkommen fade-in">Jahresurlaub</p>
+
+            <div class="wrapper fadeInDown">
+                    <div id="formContent">
+                      <!-- Tabs Titles -->
+                  
+                      <!-- Icon -->
+                      <div class="fadeIn first">
+                        <h1>Jahresurlaub</h1>
+                      </div>
+                  
+                      <!-- Login Form -->
+                      <form  action="MAILTO:arlindabdurahmani@gmail.com" method="POST" enctype="text/plain">
+                        <input type="text" id="login" class="fadeIn second" name="Name"  required>
+                        <input type="date" id="login" class="fadeIn second" name="Von"  required placeholder="Zu">
+                        <input type="date" id="login" class=" second" name=" Zu"  required>
+                        <input type="submit" class="fadeIn fourth"   value="Verseden">
+                        
+                      </form>
+                  
+                      <!-- Remind Passowrd -->
+                      <div id="formFooter">
+                      </div>
+                  
+                    </div>
+                  </div>
+
+            </div>
+
+            <SCRIPT language="JavaScript">
+                    
+                    
+                    var password;
+                    var pass1="jahresurlaubpremiumgmbh";
+                    
+                    password=prompt('Bitte geben Sie Ihr Passwort');
+                    
+                    if (password==pass1)
+                      alert('Passwort richtig! Klicken Sie auf OK, um mitzumachen!');
+                    else
+                       {
+                        window.location="jahresurlaub.html";
+                        }
+                    
+                </SCRIPT>
+    </body>
+</html>

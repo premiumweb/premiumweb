@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="asset/login.css">
+    <title>Premium GmbH • Einloggen</title>
+  </head>
+  <body>
+      
+        <div class="wrapper fadeInDown">
+                <div id="formContent">
+                  <!-- Tabs Titles -->
+              
+                  <!-- Icon -->
+                  <div class="fadeIn first">
+                    <h1>Einloggen</h1>
+                  </div>
+              
+                  <!-- Login Form -->
+                  <form name="form">
+                    <input type="text" id="login" class="fadeIn second" name="userid" placeholder="Nutzername" required>
+                    <input type="password" id="password" class="fadeIn third" name="pswrd" placeholder="Passwort" required>
+                    <input type="button" class="fadeIn fourth" onclick="check(this.form)"  value="Einloggen">
+                  </form>
+              
+                  <!-- Remind Passowrd -->
+                  <div id="formFooter">
+                  </div>
+              
+                </div>
+              </div>
+
+        
+        <script language="javascript">
+        function check(form) { /*function to check userid & password*/
+            /*the following code checkes whether the entered userid and password are matching*/
+            if(form.userid.value == "Eshtref Abduramani" && form.pswrd.value == "estiabd")  {
+                window.open('eshtrefabd.html')/*opens the target page while Id & password matches*/
+            }
+            
+
+            if(form.userid.value == "David Hernandez" && form.pswrd.value == "davidher")  {
+                window.open('davidher.html')/*opens the target page while Id & password matches*/
+            }
+           
+
+            if(form.userid.value == "Santiago Perejra" && form.pswrd.value == "santiagoper")  {
+                window.open('santiagoper.html')/*opens the target page while Id & password matches*/
+            }
+            
+
+        }               
+                </script>
+                </body>
+                </html>
