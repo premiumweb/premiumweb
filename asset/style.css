@@ -11,20 +11,20 @@ background-color: white;
     color: black;
 }
 .navbar{
-    webkit-box-shadow: 30px 4px 5px grey;
-    -moz-box-shadow:    5px 4px 5px grey;
-    box-shadow:         5px 4px 5px grey;
+    webkit-box-shadow: 2px 1px 1px yellow;
+    -moz-box-shadow:    1px 1px 1px red;
+    box-shadow:         1px 4px 1px red;
     z-index:999;
 
     
 }
 .navbartitle{
     font-family: Montserrat;
-    color: black;
+    color: white;
     
 }
 .header{
-    background-color: white;
+    background: red;
     
 
 }
@@ -38,10 +38,8 @@ background-color: white;
     font-weight: 600;
 }
 .banner{
-background-image: url("../img/banner.jpg");
-background-position: center;
-background-size: cover;
-padding-bottom: 155px;
+padding-bottom: 140px;
+background: linear-gradient(to bottom, red 9%,orange 100%,yellow 100%); /* W3C */
 }
 .rounded {
     width: 460px;
@@ -53,12 +51,12 @@ padding-bottom: 155px;
     font-weight: 500;
     font-size: 30px;
     padding-top: 250px;
-    color: black;
-    padding-left: 45px;
+    color: white;
+    padding-left: 35;
 }
 .descriptiontext{
     font-family:Montserrat;
-    padding-left: 70px;
+    padding-left: 45px;
     font-size: 20px;
-    color: black;
+    color: white;
 }
